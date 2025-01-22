@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fall Limited Edition Sneakers</title>
+  <link rel="stylesheet" href="final.css">
+</head>
+<body>
+  <header>
+
+
+      <div class="logo">sneakers</div>
+      <nav>
+        <ul>
+          <li><a href="#" onclick="showImage('collections')">Collections</a></li>
+          <li><a href="#" onclick="showImage('men')">Men</a></li>
+          <li><a href="#" onclick="showImage('women')">Women</a></li>
+          <li><a href="#" onclick="showImage('about')">About</a></li>
+          <li><a href="#" onclick="showImage('contact')">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="image-container">
+        <img id="display-image" src="" alt="Click a link to display an image">
+      </div>
+      
+      <!--الصورتين الي ع ايمين-->
+      <div id="cart-icon">
+        🛒
+        <span id="cart-count">0</span>
+        <div class="user-icon "><img src="image-avatar.png"></div>
+      </div>
+  </nav>
+  </header>
+
+
+  <main>
+    <div class="product-container">
+      <div class="product-images">
+        <img src="image-product-1.jpg" alt="Main shoe" class="main-image">
+        <div class="thumbnail-container">
+          <img src="image-product-1-thumbnail.jpg" alt="Thumbnail 1">
+          <img src="image-product-2.jpg" alt="Thumbnail 2">
+          <img src="image-product-3-thumbnail.jpg" alt="Thumbnail 3">
+          <img src="image-product-4-thumbnail.jpg" alt="Thumbnail 4">
+        </div>
+      </div>
+      <div class="product-details">
+        <h2>SNEAKER COMPANY</h2>
+        <h1>Fall Limited <br> Sneakers</h1>
+        <p>
+          These low-profile sneakers are your perfect casual wear<br> companion.
+          Featuring a durable rubber outer sole, they’ll<br> withstand everything
+          the weather can offer.
+        </p>
+        <div class="price-section">
+          <span class="current-price">$125.00</span>
+          <span class="discount">50%</span>
+        </div>
+        <span class="original-price">$250.00</span><br><br>
+        <div class="cart-section">
+          <div class="quantity">
+            <button class="decrease"><img src="icon-minus.svg"></button>
+            <input type="text" value="0" readonly>
+            <button class="increase"><img src="icon-plus.svg"></button>
+          </div>
+          <button id="add-to-cart-btn">🛒  Add to Cart</button>
+          <script>
+        
+        </script>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="final.js"></script>
+</body>
+</html>
